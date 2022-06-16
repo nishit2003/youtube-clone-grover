@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube CLone </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <img class = "hamburger-menu" src="pictures/hamburger-menu.svg">
+                <img class = "youtube-logo" src="pictures/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class = "sea"type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class = "search-icon"src="pictures/search.svg">
+                    <div class="tooltip"> Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class= "voice-search-icon" src="pictures/voice-search-icon.svg">
+                    <div class="tooltip"> Search with your voice</div>
+                </button>
+            </div>
+            
+            <div class="right-section ">
+                <div class="upload-container">
+                    <img class="upload-icon" src="pictures/upload.svg">
+                    <div class="tooltip"> Create</div>
+                </div>
+
+                 <div class="yt-apps-container">
+                    <img class="yt-icon" src="pictures/youtube-apps.svg">
+                    <div class="tooltip"> Youtube Apps</div>
+                 </div>
+
+                <div class="notification-container">
+                    <img class= "notifications-icon"src="pictures/notifications.svg">
+                    <div class="tooltip"> Notifications</div>
+                    <div class="notification-counter">
+                        3
+                    </div>
+                </div>
+                <img class="mypic"src="pictures/mypic.jpg">
+            </div>
+           
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="pictures/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="pictures/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="pictures/subscriptions.svg">
+                <div>subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="pictures/originals.svg">
+            <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="pictures/youtube-music.svg">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="pictures/library.svg">
+                <div>Library</div>
+            </div>
+        </div>
+        
+            <main>
+
+            
+            <div class="video-grid">
+
+
+                <div class="preview">
+                    <div class="thumb-row">
+                        <a href="https://www.youtube.com/watch?v=xfr_IZ65Bi4" target="_blank">
+                            <img class="pic1" src ="pictures/hqdefault.jpg" >
+                        <div class="video-time">4:20</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://www.youtube.com/channel/UCJzX-p_YJLuDIkuIzGlySCQ" target="_blank">
+                                    <img class = "profile-picture" src="pictures/unnamed.jpg">
+                                </a>
+                        
+                        
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/unnamed.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Riyandi Kusuma
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        4.5M subscribers
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="video-info">
+                        <p class="title">
+                            Yiruma - River Flows in You x Kiss the Rain (Piano Cover by Riyandi Kusuma)
+                        </p>
+                        <p class="author">
+                            Riyandi Kusuma
+                        </p>
+                        <p class="stats">
+                            5.8M views &#183; 3 years ago
+                        </p>
+                        </div>
+                    </div>       
+                </div>
+                
+                <div class="preview">
+                    <div class="thumb-row">
+                        <a href="https://www.youtube.com/watch?v=wAA7JBWEKdY&t=11s" target="_blank">
+                            <img class="pic1" src ="pictures/plane.webp" >
+                        <div class="video-time">3:29</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://www.youtube.com/c/3MinutesofAviation/featured" target="_blank">
+                                    <img class = "profile-picture" src="pictures/channels4_profile.jpg">
+                                </a>
+                        
+                        
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/channels4_profile.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        3 Minutes of Aviation
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        2M subscribers
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="video-info">
+                        <p class="title">
+                            Two Planes Try To Land On The Same Runway
+                        </p>
+                        <p class="author">
+                            3 Minutes of Aviation
+                        </p>
+                        <p class="stats">
+                            411K views &#183; 2 weeks ago
+                        </p>
+                        </div>
+                    </div>       
+                </div>
+        
+        
+                <div class="preview">
+                    <div class = "thumb-row">
+                        <a href="https://www.youtube.com/watch?v=PZ7lDrwYdZc&t=4s" target="_blank">
+                            <img class="pic1" src ="pictures/3pp.webp" >
+                        <div class="video-time">20:35</div>
+                        </a>  
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://www.youtube.com/channel/UCcf1t1tH-Pp5bmu4hbAytwA" target="_blank">
+                                    <img class = "profile-picture" src="pictures/3cp.jpg">
+                                </a>
+                        
+                        
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/3cp.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        3 Minutes of Aviation
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        2M subscribers
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="video-info">
+                            <p class="title">
+                                How to become 37.78 times better at anything | Atomic Habits summary (by James Clear)
+                            </p>
+                            <p class="author">
+                                Escaping Ordinary (B.C Marx) 
+                            </p>
+                            <p class="stats">
+                                6.5M views &#183; 7 months ago
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="preview">
+                    <div class="thumb-row">
+                        <a href="https://www.youtube.com/watch?v=CqHusxMafp4" target="_blank">
+                            <img class="pic1" src ="pictures/4pp.webp" >
+                        <div class="video-time">11:45</div>
+                        </a>    
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://www.youtube.com/c/SupercarBlondie" target="_blank">
+                                    <img class = "profile-picture" src="pictures/4cp.jpg">
+                                </a>
+                        
+                        
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/4cp.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Supercar Blondie
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        4M subscribers
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="video-info">
+                        <p class="title">
+                            World's Coolest Offroad Vehicle│Atlas ATV
+                        <p class="author">
+                            Supercar Blondie
+                        </p>
+                        <p class="stats">
+                            865K views &#183; 1 month ago
+                        </p>
+                        </div>
+                    </div>       
+                </div>
+        
+
+
+                <div class="preview">
+                    <div class = "thumb-row">
+                        <a href="https://www.youtube.com/watch?v=tX73H2FRcK8" target="_blank">
+                            <img class="pic1" src ="pictures/hq720.webp" >
+                        <div class="video-time">5:20</div>
+                        </a> 
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://www.youtube.com/channel/UCJzX-p_YJLuDIkuIzGlySCQ" target="_blank">
+                                    <img class = "profile-picture" src="pictures/unnamed.jpg">
+                                </a>
+                        
+                        
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/unnamed.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Riyandi Kusuma
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        4.5M subscribers
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="video-info">
+                            <p class="title">
+                                Beautiful in White x Canon in D (Piano Cover by Riyandi Kusuma)
+                            </p>
+                            <p class="author">
+                                Riyandi Kusuma
+                            </p>
+                            <p class="stats">
+                                11M views &#183; 3 years ago
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="preview">
+                    <div class = "thumb-row">
+                        <a href="https://www.youtube.com/watch?v=5uhUS5SKieI" target ="_blank">
+                            <img class="pic1" src ="pictures/6pp.webp" >
+                        <div class="video-time">18:42</div>
+                        </a>  
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://www.youtube.com/c/NotWhatYouThink" target="_blank">
+                                    <img class = "profile-picture" src="pictures/6cp.jpg">
+                                </a>
+                        
+                        
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/6cp.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Not What you Think
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        7M subscribers
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="video-info">
+                            <p class="title">
+                                Why are Submarines Black and Cruise Ships White?                        </p>
+                            <p class="author">
+                                Not What You Think 
+                            </p>
+                            <p class="stats">
+                                5.2M views &#183; 1 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+            
+                <div class="preview">
+                    <div class = "thumb-row">
+                        <a href="https://www.youtube.com/watch?v=Lv-XcVFBwVY" target="_blank">
+                            <img class="pic1" src ="pictures/hq720 (1)rr.webp" >
+                        <div class="video-time">5:20</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://www.youtube.com/user/landrover" target="_blank">
+                                    <img class = "profile-picture" src="pictures/channels4_profile (1) rr pp.jpg">
+                                </a>
+                        
+                        
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/channels4_profile (1) rr pp.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Land Rover
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        845K subscribers
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="video-info">
+                            <p class="title">
+                                Introducing: New Range Rover Sport                        </p>
+                            <p class="author">
+                                Land Rover
+                            </p>
+                            <p class="stats">
+                                2.3M views &#183; 1 month ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+
+                <div class="preview">
+                    <div class="thumb-row">
+                    <a href="https://www.youtube.com/shorts/4rYX4ROqRlg" target="_blank">
+                        <img class="pic1" src="pictures/hq720 wierd r.webp">
+                        <div class="video-time"> 1:00 </div>
+                    </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://www.youtube.com/c/NileRedShorts" target="_blank">
+                                    <img class = "profile-picture" src="pictures/unnamed nr s.jpg">
+                                </a>
+                        
+                        
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/unnamed nr s.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        NileRed Shorts
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        3.6 subscribers
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="video-info">
+                            <p class="title">
+                                This is one of the weirdest reactions I've ever seen
+                            </p>
+                            <p class="author">
+                                NileRed Shorts
+                            </p>
+                            <p class="stats">
+                                3M views &#183; 4 days ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="preview">
+                    <div class = "thumb-row">
+                        <a href="https://www.youtube.com/watch?v=MjGMeMrH73I&t=55s" target="_blank">
+                            <img class="pic1" src ="pictures/hqdefault mac dp.webp" >
+                        <div class="video-time">18:42</div>
+                        </a>
+                    </div>
+                    
+                    <div class="video-info-grid">
+
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://youtube.com/c/mkbhd" target="_blank">
+                                    <img class = "profile-picture" src="pictures/mac pp.jpg">
+                                </a>
+                            
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/mac pp.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Marques Brownlee
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        15M subscribers
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="video-info">
+                            <p class="title">
+                                M2 MacBook Air Impressions: Midnight Madness!          
+                            </p>
+                            <p class="author">
+                                Marques Brownlee
+                            </p>
+                            <p class="stats">
+                                4M views &#183; 6 days ago
+                            </p>
+                        </div>
+                                
+                    </div>
+                </div>
+            
+            
+
+                <div class="preview">
+                    <div class = "thumb-row">
+                        <a href="https://www.youtube.com/watch?v=xk4_1vDrzzo" target="_blank">
+                            <img class="pic1" src ="pictures/hq9.webp" >
+                            <div class="video-time">12:00:00</div>
+                        </a>
+                            
+                    </div>
+                    <div class="video-info-grid">
+                        
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://www.youtube.com/c/BroCodez" target="_blank">
+                                    <img class = "profile-picture" src="pictures/unnamed cp9.jpg">
+                                </a>
+                        
+                        
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/unnamed cp9.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Bro Code
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        1M subscribers
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="video-info">
+                            <p class="title">
+                            Java Full Course ☕ -Learn to code today-【𝙁𝙧𝙚𝙚】   
+                            </p>                     
+                            <p class="author">
+                                Bro Code
+                            </p>
+                            <p class="stats">
+                                3.6 views &#183; 1 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="preview">
+                    <div class = "thumb-row">
+                        <a href="https://www.youtube.com/watch?v=ovJcsL7vyrk&t=11s" target="_blank">
+                            <img class="pic1" src ="pictures/hq720 (1) math.webp" >
+                            <div class="video-time">18:40</div>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://youtube.com/c/Veritasium" target="_blank">
+                                    <img class = "profile-picture" src="pictures/unnamed (1) math.jpg">
+                                </a>
+                            
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/unnamed (1) math.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Veritasium
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        10M subscribers
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <p class="title">
+                            This equation will change how you see the world (the logistic map)
+                            </p>                     
+                            <p class="author">
+                                Veritasium
+                            </p>
+                            <p class="stats">
+                                13M views &#183; 2 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="preview">
+                    <div class = "thumb-row">
+                        <a href="https://www.youtube.com/watch?v=FzcfZyEhOoI" target="_blank">
+                            <img class="pic1" src ="pictures/hq720 (1) apple.webp" >
+                        <div class="video-time">14:00</div>
+                        </a>
+                        
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg" target="_blank">
+                                    <img class = "profile-picture" src="pictures/channels4_profile (1) tp.jpg">
+                                </a>
+                            
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="pictures/channels4_profile (1) tp.jpg">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Veritasium
+                                    </div>
+                                    <div class="channel-tooltip-stats">
+                                        10M subscribers
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <p class="title">
+                                Inside The $5 Billion Apple Headquarters
+                            </p>                     
+                            <p class="author">
+                                Tech Vision
+                            </p>
+                            <p class="stats">
+                                13views &#183; 1 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
